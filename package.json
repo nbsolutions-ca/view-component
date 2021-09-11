@@ -1,7 +1,7 @@
 {
-  "name": "@nbsolutions/view-component",
+  "name": "@nbsolutions/application",
   "version": "0.0.0",
-  "description": "Root View Component for NBS framework",
+  "description": "Application for NBS framework",
   "main": "./lib/api.js",
   "types": "./types/api.d.ts",
   "scripts": {

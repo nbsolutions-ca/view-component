@@ -1,5 +1,6 @@
 
-import {NBSObject, INBSObject} from '@nbsolutions/object';
+import {INBSObject} from '@nbsolutions/interfaces';
+import {NBSObject} from '@nbsolutions/object';
 
 import * as React from 'react';
 

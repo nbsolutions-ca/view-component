@@ -11,6 +11,7 @@
         "alwaysStrict": true,
         "moduleResolution": "node",
         "baseUrl": "./src/",
+        "jsx": "react",
         "plugins": [],
         "incremental": true
     },
