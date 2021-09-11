@@ -3,7 +3,13 @@ import {NBSObject, INBSObject} from '@nbsolutions/object';
 
 import * as React from 'react';
 
-export abstract class ViewComponent<TProps extends Record<string, any> = Record<string, never>, TState extends Record<string, never> = Record<string, never>> extends React.Component<TProps, TState> implements INBSObject {
+export type IViewComponentProps<T = any> = Record<string, T>;
+export type IViewComponentState<T = any> = Record<string, T>;
+
+export abstract class ViewComponent<
+    TProps extends IViewComponentProps = IViewComponentProps<never>,
+    TState extends IViewComponentState = IViewComponentState<never>
+> extends React.Component<TProps, TState> implements INBSObject {
 
     public constructor(props: TProps) {
         super(props);
@@ -19,6 +25,8 @@ export abstract class ViewComponent<TProps extends Record<string, any> = Record<
     }
 }
 
+// Think of this hack as multiple inheritence...
+// we are extending from both NBSObject AND React.Component.
 for (let i in NBSObject.prototype) {
     (ViewComponent.prototype as any)[i] = (NBSObject.prototype as any)[i];
 }
