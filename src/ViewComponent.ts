@@ -24,6 +24,9 @@ export abstract class ViewComponent<
     public getClassName(): string {
         return NBSObject.prototype.getClassName.call(this);
     }
+
+    public componentDidMount(): void {}
+    public componentWillUnmount(): void {}
 }
 
 // Think of this hack as multiple inheritence...
