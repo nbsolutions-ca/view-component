@@ -1,4 +1,4 @@
-[@nbsolutions/view-component - v0.0.0-alpha.0](../README.md) / [Exports](../modules.md) / ViewComponent
+[@nbsolutions/view-component - v0.0.0-alpha.1](../README.md) / [Exports](../modules.md) / ViewComponent
 
 # Module: ViewComponent
 
@@ -27,7 +27,7 @@
 
 #### Defined in
 
-[src/ViewComponent.ts:7](https://github.com/nbsolutions-ca/view-component/blob/17317ac/src/ViewComponent.ts#L7)
+[src/ViewComponent.ts:8](https://github.com/nbsolutions-ca/view-component/blob/21651d0/src/ViewComponent.ts#L8)
 
 ___
 
@@ -43,4 +43,4 @@ ___
 
 #### Defined in
 
-[src/ViewComponent.ts:8](https://github.com/nbsolutions-ca/view-component/blob/17317ac/src/ViewComponent.ts#L8)
+[src/ViewComponent.ts:9](https://github.com/nbsolutions-ca/view-component/blob/21651d0/src/ViewComponent.ts#L9)

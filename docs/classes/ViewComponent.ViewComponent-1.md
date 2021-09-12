@@ -1,4 +1,4 @@
-[@nbsolutions/view-component - v0.0.0-alpha.0](../README.md) / [Exports](../modules.md) / [ViewComponent](../modules/ViewComponent.md) / ViewComponent
+[@nbsolutions/view-component - v0.0.0-alpha.1](../README.md) / [Exports](../modules.md) / [ViewComponent](../modules/ViewComponent.md) / ViewComponent
 
 # Class: ViewComponent<TProps, TState\>
 
@@ -41,6 +41,7 @@
 - [UNSAFE\_componentWillReceiveProps](ViewComponent.ViewComponent-1.md#unsafe_componentwillreceiveprops)
 - [UNSAFE\_componentWillUpdate](ViewComponent.ViewComponent-1.md#unsafe_componentwillupdate)
 - [\_getInitialState](ViewComponent.ViewComponent-1.md#_getinitialstate)
+- [\_getUsableStyles](ViewComponent.ViewComponent-1.md#_getusablestyles)
 - [componentDidCatch](ViewComponent.ViewComponent-1.md#componentdidcatch)
 - [componentDidMount](ViewComponent.ViewComponent-1.md#componentdidmount)
 - [componentDidUpdate](ViewComponent.ViewComponent-1.md#componentdidupdate)
@@ -80,7 +81,7 @@ React.Component&lt;TProps, TState\&gt;.constructor
 
 #### Defined in
 
-[src/ViewComponent.ts:15](https://github.com/nbsolutions-ca/view-component/blob/17317ac/src/ViewComponent.ts#L15)
+[src/ViewComponent.ts:17](https://github.com/nbsolutions-ca/view-component/blob/21651d0/src/ViewComponent.ts#L17)
 
 ## Properties
 
@@ -325,7 +326,21 @@ ___
 
 #### Defined in
 
-[src/ViewComponent.ts:21](https://github.com/nbsolutions-ca/view-component/blob/17317ac/src/ViewComponent.ts#L21)
+[src/ViewComponent.ts:28](https://github.com/nbsolutions-ca/view-component/blob/21651d0/src/ViewComponent.ts#L28)
+
+___
+
+### \_getUsableStyles
+
+▸ `Protected` **_getUsableStyles**(): [`IUsable`](../interfaces/IUsable.IUsable-1.md)
+
+#### Returns
+
+[`IUsable`](../interfaces/IUsable.IUsable-1.md)
+
+#### Defined in
+
+[src/ViewComponent.ts:24](https://github.com/nbsolutions-ca/view-component/blob/21651d0/src/ViewComponent.ts#L24)
 
 ___
 
@@ -371,7 +386,7 @@ React.Component.componentDidMount
 
 #### Defined in
 
-[src/ViewComponent.ts:28](https://github.com/nbsolutions-ca/view-component/blob/17317ac/src/ViewComponent.ts#L28)
+[src/ViewComponent.ts:35](https://github.com/nbsolutions-ca/view-component/blob/21651d0/src/ViewComponent.ts#L35)
 
 ___
 
@@ -489,7 +504,7 @@ React.Component.componentWillUnmount
 
 #### Defined in
 
-[src/ViewComponent.ts:29](https://github.com/nbsolutions-ca/view-component/blob/17317ac/src/ViewComponent.ts#L29)
+[src/ViewComponent.ts:41](https://github.com/nbsolutions-ca/view-component/blob/21651d0/src/ViewComponent.ts#L41)
 
 ___
 
@@ -570,7 +585,7 @@ INBSObject.getClassName
 
 #### Defined in
 
-[src/ViewComponent.ts:24](https://github.com/nbsolutions-ca/view-component/blob/17317ac/src/ViewComponent.ts#L24)
+[src/ViewComponent.ts:31](https://github.com/nbsolutions-ca/view-component/blob/21651d0/src/ViewComponent.ts#L31)
 
 ___
 
@@ -620,7 +635,7 @@ React.Component.render
 
 #### Defined in
 
-[src/ViewComponent.ts:22](https://github.com/nbsolutions-ca/view-component/blob/17317ac/src/ViewComponent.ts#L22)
+[src/ViewComponent.ts:29](https://github.com/nbsolutions-ca/view-component/blob/21651d0/src/ViewComponent.ts#L29)
 
 ___
 

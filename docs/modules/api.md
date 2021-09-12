@@ -1,4 +1,4 @@
-[@nbsolutions/view-component - v0.0.0-alpha.0](../README.md) / [Exports](../modules.md) / api
+[@nbsolutions/view-component - v0.0.0-alpha.1](../README.md) / [Exports](../modules.md) / api
 
 # Module: api
 
@@ -6,12 +6,19 @@
 
 ### References
 
+- [IUsable](api.md#iusable)
 - [IViewComponentProps](api.md#iviewcomponentprops)
 - [IViewComponentState](api.md#iviewcomponentstate)
 - [ViewComponent](api.md#viewcomponent)
 - [default](api.md#default)
 
 ## References
+
+### IUsable
+
+Re-exports: [IUsable](../interfaces/IUsable.IUsable-1.md)
+
+___
 
 ### IViewComponentProps
 
