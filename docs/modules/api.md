@@ -1,4 +1,4 @@
-[@nbsolutions/view-component - v0.0.0-alpha.1](../README.md) / [Exports](../modules.md) / api
+[@nbsolutions/view-component - v0.0.0-alpha.2](../README.md) / [Exports](../modules.md) / api
 
 # Module: api
 
