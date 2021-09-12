@@ -1,7 +1,7 @@
 
 import {INBSObject} from '@nbsolutions/interfaces';
 import {NBSObject} from '@nbsolutions/object';
-import { IUsable } from 'IUsable';
+import { IUsable } from './IUsable';
 
 import * as React from 'react';
 

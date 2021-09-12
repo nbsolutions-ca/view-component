@@ -10,7 +10,6 @@
         "noImplicitThis": true,
         "alwaysStrict": true,
         "moduleResolution": "node",
-        "baseUrl": "./src/",
         "jsx": "react",
         "plugins": [],
         "incremental": true
