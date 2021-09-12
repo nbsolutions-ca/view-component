@@ -26,7 +26,7 @@ export abstract class ViewComponent<
     }
 
     protected abstract _getInitialState(props: TProps): TState;
-    public abstract render(): JSX.Element;
+    public abstract render(): React.ReactNode;
 
     public getClassName(): string {
         return NBSObject.prototype.getClassName.call(this);
