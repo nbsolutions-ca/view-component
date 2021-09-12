@@ -1,6 +1,6 @@
-[@nbsolutions/view-component - v0.0.0-alpha.2](README.md) / Exports
+[@nbsolutions/view-component - v0.0.0-alpha.3](README.md) / Exports
 
-# @nbsolutions/view-component - v0.0.0-alpha.2
+# @nbsolutions/view-component - v0.0.0-alpha.3
 
 ## Table of contents
 

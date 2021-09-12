@@ -1,4 +1,4 @@
-[@nbsolutions/view-component - v0.0.0-alpha.2](../README.md) / [Exports](../modules.md) / [ViewComponent](../modules/ViewComponent.md) / ViewComponent
+[@nbsolutions/view-component - v0.0.0-alpha.3](../README.md) / [Exports](../modules.md) / [ViewComponent](../modules/ViewComponent.md) / ViewComponent
 
 # Class: ViewComponent<TProps, TState\>
 
@@ -81,7 +81,7 @@ React.Component&lt;TProps, TState\&gt;.constructor
 
 #### Defined in
 
-[src/ViewComponent.ts:17](https://github.com/nbsolutions-ca/view-component/blob/a0db092/src/ViewComponent.ts#L17)
+[src/ViewComponent.ts:17](https://github.com/nbsolutions-ca/view-component/blob/ebee59b/src/ViewComponent.ts#L17)
 
 ## Properties
 
@@ -326,7 +326,7 @@ ___
 
 #### Defined in
 
-[src/ViewComponent.ts:28](https://github.com/nbsolutions-ca/view-component/blob/a0db092/src/ViewComponent.ts#L28)
+[src/ViewComponent.ts:28](https://github.com/nbsolutions-ca/view-component/blob/ebee59b/src/ViewComponent.ts#L28)
 
 ___
 
@@ -340,7 +340,7 @@ ___
 
 #### Defined in
 
-[src/ViewComponent.ts:24](https://github.com/nbsolutions-ca/view-component/blob/a0db092/src/ViewComponent.ts#L24)
+[src/ViewComponent.ts:24](https://github.com/nbsolutions-ca/view-component/blob/ebee59b/src/ViewComponent.ts#L24)
 
 ___
 
@@ -386,7 +386,7 @@ React.Component.componentDidMount
 
 #### Defined in
 
-[src/ViewComponent.ts:35](https://github.com/nbsolutions-ca/view-component/blob/a0db092/src/ViewComponent.ts#L35)
+[src/ViewComponent.ts:35](https://github.com/nbsolutions-ca/view-component/blob/ebee59b/src/ViewComponent.ts#L35)
 
 ___
 
@@ -504,7 +504,7 @@ React.Component.componentWillUnmount
 
 #### Defined in
 
-[src/ViewComponent.ts:41](https://github.com/nbsolutions-ca/view-component/blob/a0db092/src/ViewComponent.ts#L41)
+[src/ViewComponent.ts:41](https://github.com/nbsolutions-ca/view-component/blob/ebee59b/src/ViewComponent.ts#L41)
 
 ___
 
@@ -585,7 +585,7 @@ INBSObject.getClassName
 
 #### Defined in
 
-[src/ViewComponent.ts:31](https://github.com/nbsolutions-ca/view-component/blob/a0db092/src/ViewComponent.ts#L31)
+[src/ViewComponent.ts:31](https://github.com/nbsolutions-ca/view-component/blob/ebee59b/src/ViewComponent.ts#L31)
 
 ___
 
@@ -623,11 +623,11 @@ ___
 
 ### render
 
-▸ `Abstract` **render**(): `Element`
+▸ `Abstract` **render**(): `ReactNode`
 
 #### Returns
 
-`Element`
+`ReactNode`
 
 #### Overrides
 
@@ -635,7 +635,7 @@ React.Component.render
 
 #### Defined in
 
-[src/ViewComponent.ts:29](https://github.com/nbsolutions-ca/view-component/blob/a0db092/src/ViewComponent.ts#L29)
+[src/ViewComponent.ts:29](https://github.com/nbsolutions-ca/view-component/blob/ebee59b/src/ViewComponent.ts#L29)
 
 ___
 

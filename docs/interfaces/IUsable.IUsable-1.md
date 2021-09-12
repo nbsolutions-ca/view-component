@@ -1,4 +1,4 @@
-[@nbsolutions/view-component - v0.0.0-alpha.2](../README.md) / [Exports](../modules.md) / [IUsable](../modules/IUsable.md) / IUsable
+[@nbsolutions/view-component - v0.0.0-alpha.3](../README.md) / [Exports](../modules.md) / [IUsable](../modules/IUsable.md) / IUsable
 
 # Interface: IUsable
 
@@ -23,7 +23,7 @@
 
 #### Defined in
 
-[src/IUsable.ts:4](https://github.com/nbsolutions-ca/view-component/blob/a0db092/src/IUsable.ts#L4)
+[src/IUsable.ts:4](https://github.com/nbsolutions-ca/view-component/blob/ebee59b/src/IUsable.ts#L4)
 
 ___
 
@@ -37,4 +37,4 @@ ___
 
 #### Defined in
 
-[src/IUsable.ts:3](https://github.com/nbsolutions-ca/view-component/blob/a0db092/src/IUsable.ts#L3)
+[src/IUsable.ts:3](https://github.com/nbsolutions-ca/view-component/blob/ebee59b/src/IUsable.ts#L3)

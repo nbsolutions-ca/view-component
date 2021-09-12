@@ -1,4 +1,4 @@
-[@nbsolutions/view-component - v0.0.0-alpha.2](../README.md) / [Exports](../modules.md) / IUsable
+[@nbsolutions/view-component - v0.0.0-alpha.3](../README.md) / [Exports](../modules.md) / IUsable
 
 # Module: IUsable
 

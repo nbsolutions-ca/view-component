@@ -1,1 +1,1 @@
-@nbsolutions/view-component - v0.0.0-alpha.2 / [Exports](modules.md)
+@nbsolutions/view-component - v0.0.0-alpha.3 / [Exports](modules.md)
