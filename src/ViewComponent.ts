@@ -1,6 +1,7 @@
 
 import {INBSObject} from '@nbsolutions/interfaces';
 import {NBSObject} from '@nbsolutions/object';
+import { IUsable } from 'IUsable';
 
 import * as React from 'react';
 
@@ -11,11 +12,17 @@ export abstract class ViewComponent<
     TProps extends IViewComponentProps = IViewComponentProps<never>,
     TState extends IViewComponentState = IViewComponentState<never>
 > extends React.Component<TProps, TState> implements INBSObject {
+    private $styles: IUsable;
 
     public constructor(props: TProps) {
         super(props);
         NBSObject.prototype.constructor.call(this);
         this.state = this._getInitialState(props);
+        this.$styles = this._getUsableStyles();
+    }
+
+    protected _getUsableStyles(): IUsable {
+        return null;
     }
 
     protected abstract _getInitialState(props: TProps): TState;
@@ -25,8 +32,17 @@ export abstract class ViewComponent<
         return NBSObject.prototype.getClassName.call(this);
     }
 
-    public componentDidMount(): void {}
-    public componentWillUnmount(): void {}
+    public componentDidMount(): void {
+        if (this.$styles) {
+            this.$styles.use();
+        }
+    }
+
+    public componentWillUnmount(): void {
+        if (this.$styles) {
+            this.$styles.unuse();
+        }
+    }
 }
 
 // Think of this hack as multiple inheritence...
