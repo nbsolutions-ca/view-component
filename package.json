@@ -4,6 +4,10 @@
   "description": "View Component for NBS framework",
   "main": "./lib/api.js",
   "types": "./types/api.d.ts",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "scripts": {
     "lint": "eslint --ext .ts,.tsx '?(src|spec)/**/*.?(ts|tsx)' --cache",
     "docs": "typedoc --excludePrivate --includeVersion -readme ./README.md --out ./docs ./src",
@@ -46,16 +50,16 @@
     "jest": "27.1.1",
     "ts-jest": "27.0.5",
     "ts-node": "10.2.1",
-    "typedoc": "0.22.2",
+    "typedoc": "0.21.9",
     "typedoc-plugin-markdown": "3.10.4",
     "typescript": "4.3.5"
   },
   "peerDependencies": {
-    "@nbsolutions/interfaces": "file:/development/nbsolutions/interfaces/nbsolutions-interfaces-0.0.0.tgz",
+    "@nbsolutions/interfaces": "0.0.0-alpha.0",
     "react": "17.x"
   },
   "dependencies": {
-    "@nbsolutions/object": "file:/development/nbsolutions/object/nbsolutions-object-0.0.0.tgz",
+    "@nbsolutions/object": "0.0.0-alpha.0",
     "tslib": "2.3.1"
   }
 }
