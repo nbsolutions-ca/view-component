@@ -1,4 +1,4 @@
-[@nbsolutions/object - v0.0.0](../README.md) / [Exports](../modules.md) / api
+[@nbsolutions/view-component - v0.0.0-alpha.0](../README.md) / [Exports](../modules.md) / api
 
 # Module: api
 
@@ -6,17 +6,31 @@
 
 ### References
 
-- [NBSObject](api.md#nbsobject)
+- [IViewComponentProps](api.md#iviewcomponentprops)
+- [IViewComponentState](api.md#iviewcomponentstate)
+- [ViewComponent](api.md#viewcomponent)
 - [default](api.md#default)
 
 ## References
 
-### NBSObject
+### IViewComponentProps
 
-Re-exports: [NBSObject](../classes/nbsobject.nbsobject-1.md)
+Re-exports: [IViewComponentProps](ViewComponent.md#iviewcomponentprops)
+
+___
+
+### IViewComponentState
+
+Re-exports: [IViewComponentState](ViewComponent.md#iviewcomponentstate)
+
+___
+
+### ViewComponent
+
+Re-exports: [ViewComponent](../classes/ViewComponent.ViewComponent-1.md)
 
 ___
 
 ### default
 
-Renames and exports: [NBSObject](../classes/nbsobject.nbsobject-1.md)
+Renames and exports: [ViewComponent](../classes/ViewComponent.ViewComponent-1.md)
