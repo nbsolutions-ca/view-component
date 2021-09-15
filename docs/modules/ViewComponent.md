@@ -27,7 +27,7 @@
 
 #### Defined in
 
-[src/ViewComponent.ts:8](https://github.com/nbsolutions-ca/view-component/blob/ebee59b/src/ViewComponent.ts#L8)
+[src/ViewComponent.ts:8](https://github.com/nbsolutions-ca/view-component/blob/ee91856/src/ViewComponent.ts#L8)
 
 ___
 
@@ -43,4 +43,4 @@ ___
 
 #### Defined in
 
-[src/ViewComponent.ts:9](https://github.com/nbsolutions-ca/view-component/blob/ebee59b/src/ViewComponent.ts#L9)
+[src/ViewComponent.ts:9](https://github.com/nbsolutions-ca/view-component/blob/ee91856/src/ViewComponent.ts#L9)

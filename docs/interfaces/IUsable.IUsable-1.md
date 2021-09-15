@@ -23,7 +23,7 @@
 
 #### Defined in
 
-[src/IUsable.ts:4](https://github.com/nbsolutions-ca/view-component/blob/ebee59b/src/IUsable.ts#L4)
+[src/IUsable.ts:4](https://github.com/nbsolutions-ca/view-component/blob/ee91856/src/IUsable.ts#L4)
 
 ___
 
@@ -37,4 +37,4 @@ ___
 
 #### Defined in
 
-[src/IUsable.ts:3](https://github.com/nbsolutions-ca/view-component/blob/ebee59b/src/IUsable.ts#L3)
+[src/IUsable.ts:3](https://github.com/nbsolutions-ca/view-component/blob/ee91856/src/IUsable.ts#L3)
