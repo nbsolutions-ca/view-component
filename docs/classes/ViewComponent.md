@@ -1,15 +1,13 @@
-[@nbsolutions/view-component - v0.0.0-alpha.3](../README.md) / [Exports](../modules.md) / [ViewComponent](../modules/ViewComponent.md) / ViewComponent
+[@nbsolutions/view-component - v0.0.0-alpha.4](../README.md) / [Exports](../modules.md) / ViewComponent
 
 # Class: ViewComponent<TProps, TState\>
-
-[ViewComponent](../modules/ViewComponent.md).ViewComponent
 
 ## Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `TProps` | extends [`IViewComponentProps`](../modules/ViewComponent.md#iviewcomponentprops)[`IViewComponentProps`](../modules/ViewComponent.md#iviewcomponentprops)<`never`\> |
-| `TState` | extends [`IViewComponentState`](../modules/ViewComponent.md#iviewcomponentstate)[`IViewComponentState`](../modules/ViewComponent.md#iviewcomponentstate)<`never`\> |
+| `TProps` | extends [`IViewComponentProps`](../modules.md#iviewcomponentprops) = [`IViewComponentProps`](../modules.md#iviewcomponentprops)<`never`\> |
+| `TState` | extends [`IViewComponentState`](../modules.md#iviewcomponentstate) = [`IViewComponentState`](../modules.md#iviewcomponentstate)<`never`\> |
 
 ## Hierarchy
 
@@ -25,36 +23,36 @@
 
 ### Constructors
 
-- [constructor](ViewComponent.ViewComponent-1.md#constructor)
+- [constructor](ViewComponent.md#constructor)
 
 ### Properties
 
-- [context](ViewComponent.ViewComponent-1.md#context)
-- [props](ViewComponent.ViewComponent-1.md#props)
-- [refs](ViewComponent.ViewComponent-1.md#refs)
-- [state](ViewComponent.ViewComponent-1.md#state)
-- [contextType](ViewComponent.ViewComponent-1.md#contexttype)
+- [context](ViewComponent.md#context)
+- [props](ViewComponent.md#props)
+- [refs](ViewComponent.md#refs)
+- [state](ViewComponent.md#state)
+- [contextType](ViewComponent.md#contexttype)
 
 ### Methods
 
-- [UNSAFE\_componentWillMount](ViewComponent.ViewComponent-1.md#unsafe_componentwillmount)
-- [UNSAFE\_componentWillReceiveProps](ViewComponent.ViewComponent-1.md#unsafe_componentwillreceiveprops)
-- [UNSAFE\_componentWillUpdate](ViewComponent.ViewComponent-1.md#unsafe_componentwillupdate)
-- [\_getInitialState](ViewComponent.ViewComponent-1.md#_getinitialstate)
-- [\_getUsableStyles](ViewComponent.ViewComponent-1.md#_getusablestyles)
-- [componentDidCatch](ViewComponent.ViewComponent-1.md#componentdidcatch)
-- [componentDidMount](ViewComponent.ViewComponent-1.md#componentdidmount)
-- [componentDidUpdate](ViewComponent.ViewComponent-1.md#componentdidupdate)
-- [componentWillMount](ViewComponent.ViewComponent-1.md#componentwillmount)
-- [componentWillReceiveProps](ViewComponent.ViewComponent-1.md#componentwillreceiveprops)
-- [componentWillUnmount](ViewComponent.ViewComponent-1.md#componentwillunmount)
-- [componentWillUpdate](ViewComponent.ViewComponent-1.md#componentwillupdate)
-- [forceUpdate](ViewComponent.ViewComponent-1.md#forceupdate)
-- [getClassName](ViewComponent.ViewComponent-1.md#getclassname)
-- [getSnapshotBeforeUpdate](ViewComponent.ViewComponent-1.md#getsnapshotbeforeupdate)
-- [render](ViewComponent.ViewComponent-1.md#render)
-- [setState](ViewComponent.ViewComponent-1.md#setstate)
-- [shouldComponentUpdate](ViewComponent.ViewComponent-1.md#shouldcomponentupdate)
+- [UNSAFE\_componentWillMount](ViewComponent.md#unsafe_componentwillmount)
+- [UNSAFE\_componentWillReceiveProps](ViewComponent.md#unsafe_componentwillreceiveprops)
+- [UNSAFE\_componentWillUpdate](ViewComponent.md#unsafe_componentwillupdate)
+- [\_getInitialState](ViewComponent.md#_getinitialstate)
+- [\_getUsableStyles](ViewComponent.md#_getusablestyles)
+- [componentDidCatch](ViewComponent.md#componentdidcatch)
+- [componentDidMount](ViewComponent.md#componentdidmount)
+- [componentDidUpdate](ViewComponent.md#componentdidupdate)
+- [componentWillMount](ViewComponent.md#componentwillmount)
+- [componentWillReceiveProps](ViewComponent.md#componentwillreceiveprops)
+- [componentWillUnmount](ViewComponent.md#componentwillunmount)
+- [componentWillUpdate](ViewComponent.md#componentwillupdate)
+- [forceUpdate](ViewComponent.md#forceupdate)
+- [getClassName](ViewComponent.md#getclassname)
+- [getSnapshotBeforeUpdate](ViewComponent.md#getsnapshotbeforeupdate)
+- [render](ViewComponent.md#render)
+- [setState](ViewComponent.md#setstate)
+- [shouldComponentUpdate](ViewComponent.md#shouldcomponentupdate)
 
 ## Constructors
 
@@ -66,8 +64,8 @@
 
 | Name | Type |
 | :------ | :------ |
-| `TProps` | extends [`IViewComponentProps`](../modules/ViewComponent.md#iviewcomponentprops)<`any`\>[`IViewComponentProps`](../modules/ViewComponent.md#iviewcomponentprops)<`never`\> |
-| `TState` | extends [`IViewComponentState`](../modules/ViewComponent.md#iviewcomponentstate)<`any`\>[`IViewComponentState`](../modules/ViewComponent.md#iviewcomponentstate)<`never`\> |
+| `TProps` | extends [`IViewComponentProps`](../modules.md#iviewcomponentprops)<`any`\> = [`IViewComponentProps`](../modules.md#iviewcomponentprops)<`never`\> |
+| `TState` | extends [`IViewComponentState`](../modules.md#iviewcomponentstate)<`any`\> = [`IViewComponentState`](../modules.md#iviewcomponentstate)<`never`\> |
 
 #### Parameters
 
@@ -81,7 +79,7 @@ React.Component&lt;TProps, TState\&gt;.constructor
 
 #### Defined in
 
-[src/ViewComponent.ts:17](https://github.com/nbsolutions-ca/view-component/blob/ee91856/src/ViewComponent.ts#L17)
+[src/ViewComponent.ts:17](https://github.com/nbsolutions-ca/view-component/blob/b2e2c3c/src/ViewComponent.ts#L17)
 
 ## Properties
 
@@ -115,7 +113,7 @@ ___
 
 ### props
 
-• `Readonly` **props**: `Readonly`<`TProps`\> & `Readonly`<`Object`\>
+• `Readonly` **props**: `Readonly`<`TProps`\> & `Readonly`<{ `children?`: `ReactNode`  }\>
 
 #### Inherited from
 
@@ -326,21 +324,21 @@ ___
 
 #### Defined in
 
-[src/ViewComponent.ts:28](https://github.com/nbsolutions-ca/view-component/blob/ee91856/src/ViewComponent.ts#L28)
+[src/ViewComponent.ts:28](https://github.com/nbsolutions-ca/view-component/blob/b2e2c3c/src/ViewComponent.ts#L28)
 
 ___
 
 ### \_getUsableStyles
 
-▸ `Protected` **_getUsableStyles**(): [`IUsable`](../interfaces/IUsable.IUsable-1.md)
+▸ `Protected` **_getUsableStyles**(): [`IUsable`](../interfaces/IUsable.md)
 
 #### Returns
 
-[`IUsable`](../interfaces/IUsable.IUsable-1.md)
+[`IUsable`](../interfaces/IUsable.md)
 
 #### Defined in
 
-[src/ViewComponent.ts:24](https://github.com/nbsolutions-ca/view-component/blob/ee91856/src/ViewComponent.ts#L24)
+[src/ViewComponent.ts:24](https://github.com/nbsolutions-ca/view-component/blob/b2e2c3c/src/ViewComponent.ts#L24)
 
 ___
 
@@ -386,7 +384,7 @@ React.Component.componentDidMount
 
 #### Defined in
 
-[src/ViewComponent.ts:35](https://github.com/nbsolutions-ca/view-component/blob/ee91856/src/ViewComponent.ts#L35)
+[src/ViewComponent.ts:35](https://github.com/nbsolutions-ca/view-component/blob/b2e2c3c/src/ViewComponent.ts#L35)
 
 ___
 
@@ -504,7 +502,7 @@ React.Component.componentWillUnmount
 
 #### Defined in
 
-[src/ViewComponent.ts:41](https://github.com/nbsolutions-ca/view-component/blob/ee91856/src/ViewComponent.ts#L41)
+[src/ViewComponent.ts:41](https://github.com/nbsolutions-ca/view-component/blob/b2e2c3c/src/ViewComponent.ts#L41)
 
 ___
 
@@ -585,7 +583,7 @@ INBSObject.getClassName
 
 #### Defined in
 
-[src/ViewComponent.ts:31](https://github.com/nbsolutions-ca/view-component/blob/ee91856/src/ViewComponent.ts#L31)
+[src/ViewComponent.ts:31](https://github.com/nbsolutions-ca/view-component/blob/b2e2c3c/src/ViewComponent.ts#L31)
 
 ___
 
@@ -635,7 +633,7 @@ React.Component.render
 
 #### Defined in
 
-[src/ViewComponent.ts:29](https://github.com/nbsolutions-ca/view-component/blob/ee91856/src/ViewComponent.ts#L29)
+[src/ViewComponent.ts:29](https://github.com/nbsolutions-ca/view-component/blob/b2e2c3c/src/ViewComponent.ts#L29)
 
 ___
 
